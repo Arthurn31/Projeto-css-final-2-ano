@@ -1,0 +1,440 @@
+/* css home */
+/* import url font */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Montserrat:wght@600&display=swap');
+
+
+body{
+/* background-image: linear-gradient(45deg,silver,black,silver ); */
+/* animation: degrade-animado 5s 1 ; */
+background-size: 500% 100%;
+background-color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+     /*border: red solid 2px;*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+header{
+    background-color:#4782a4;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin-bottom: 15%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 2%;
+}
+
+li{
+    list-style: none;
+}
+
+.nav-hotbar{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    margin-bottom: 16px;
+}
+
+.nav-tag{
+    display: flex;
+    justify-content: right;
+}
+
+.nav-tag li{
+    margin: 12px 0 12px 20px;
+    font-size: 13pt;
+}
+
+.nav-searchbar{
+    display: flex;
+    justify-content: right;
+}
+
+.nav-searchbar input, button{
+    margin-left: 8px;
+    margin-bottom: 12px;
+}
+
+.nav-searchbar input{
+    width: 400px;
+    height: 3vh;
+    margin-top: auto;
+}
+
+.tel{
+    letter-spacing: 1px;
+    margin-left: 70px;
+    color: white;
+}
+
+.search-button{
+    background-color: green;
+    color: branco;
+    border: 0;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.search-input{
+    border: 0;
+    border-radius: 3px;
+}
+
+ul > li{
+    color:white;
+}
+
+.nav-nav{
+    margin: 0 7%;
+}
+
+.nav-div-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+#myFooter{
+padding-top:150px;
+}
+
+#myFooter .container{
+text-align: center;
+}
+
+#myFooter .footer-copyright{
+margin-bottom: 35px;
+text-align: center;
+color: #777;
+}
+
+#myFooter ul{
+list-style-type: none;
+padding: 0;
+margin-bottom: 18px;
+}
+
+#myFooter a{
+color: #282b2d;
+font-size: 18px;
+}
+
+#myFooter li{
+display: inline-block;
+margin: 0px 15px;
+line-height: 2;
+}
+
+#myFooter .footer-social{
+text-align: center;
+padding-top: 25px;
+padding-bottom: 25px;
+background-color: #eee;
+}
+
+.contato{
+animation: transition 5s;
+transition-delay: 5s;
+}
+
+@keyframes transicao{
+100%{
+background-position-y: 100%;
+}
+}
+
+#divBusca{
+display: flex;
+justify-content:flex-end;
+background-color:transparent;
+border:solid 1px;
+border-radius:15px;
+width:300px;
+height: 50px;
+margin-top: 1.5%;
+margin-right: 2%;
+
+}
+
+#txtBusca{
+border-color: transparent;
+background-color:transparent;
+font-style:italic;
+font-size:18px;
+color: white;
+
+height:30px;
+width:200px;
+margin-top: 2%;
+margin-right: 5%
+;
+}
+.carrosell{
+display: flex;
+align-items: flex-start;    
+
+margin-left: 2%;
+height:100% ;
+width:60%;
+}
+.lista{
+    /*margin-bottom: 1%;*/
+
+    /*margin-right: 7%;*/
+    list-style: none;
+}
+.delete-btn{
+    background:#4782a4;
+    color: #F0F0F0;
+    border: 2px solid #F0F0F0;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 10px 75px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    width: 270px;
+    -webkit-transition: all 0.4s;
+   -moz-transition: all 0.4s;
+   transition: all 0.4s;
+  }
+  .delete-btn:hover, .delete-btn:focus {
+    background-color: white;
+    color: #333333;
+    border:1px solid black;
+    
+   
+  }
+  .mae{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 2.5%;
+}
+
+.busca2{
+    display: flex;
+    justify-content:flex-start;
+    background-color:transparent;
+    border:solid 1px;
+    border-radius:15px;
+    width: 700px;
+    height: 50px;
+    margin-top: 2%;
+    margin-left: 6%;
+}
+#txtBusca2{
+    border-color: transparent;
+    background-color:transparent;
+    font-style:italic;
+    font-size:18px;
+    color: white;
+    
+    height:30px;
+    width:650px;
+    margin-bottom:1% ;
+    margin-top: 1%;
+    margin-left: 1%
+    ;
+    }
+
+    .botao{
+        width: 100%;
+        display: grid;
+        
+    
+    }
+    .botao a {
+    
+        border: none;
+        cursor: pointer;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 4px;
+        color: white;
+        font-size: 25px;
+        font-family: 'Darker Grotesque', sans-serif;
+        transition: padding 1.5s;
+        border-radius: 25px;
+       
+    }
+    
+    .botao a:hover{
+        padding: 100px;
+      
+    }
+    
+    
+    
+    
+    .iconea{
+        background: url('../imgs/analise.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        
+    }
+    
+    
+    .iconeb{
+        background: url('../imgs/big-data.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+    }
+    .iconec{
+        background: url('../imgs/inteligencia-artificial.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+    }
+    .iconed{
+        background: url('../imgs/lar-inteligente.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+    }
+    
+    #um{
+    
+        background: rgba(249, 249, 250, 0.849);
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        transition: all 0.4s;
+        color: black;
+        border: black solid 1px;
+        
+    }
+    #um:hover{
+      
+        background-color: black;
+        color: white;
+        
+        
+    }
+    #dois{
+    
+        background: rgba(249, 249, 250, 0.849);
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        transition: all 0.4s;
+        color: black;
+        border: black solid 1px;
+        
+    }
+    #dois:hover{
+      
+        background-color: black;
+        color: white;
+        
+    }
+    #tres{
+    
+        background: rgba(249, 249, 250, 0.849);
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        transition: all 0.4s;
+        color: black;
+        border: black solid 1px;
+        
+    }
+    #tres:hover{
+      
+        background-color: black;
+        color: white;
+    }
+    #quatro{
+    
+        background: rgba(249, 249, 250, 0.849);
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        transition: all 0.4s;
+        color: black;
+        border: black solid 1px;
+        
+    }
+    #quatro:hover{
+      
+        background-color: black;
+        color: white;
+    }
+    
+    .botao{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    #grid{
+        height: 50vh;
+        width: 45vw;
+        display: grid;
+        grid-template-columns: 250px 250px;
+        grid-template-rows: 180px 180px;
+        gap:30px;
+        margin-left: -8%;
+        /*margin-right:300%;
+        /*justify-content: start;*/   
+    }
+    
+    .tia{
+        display: flex;
+        justify-content:space-evenly;
+        margin-top: 2.5%;
+    }   
+
+    .imagem-direita{ 
+   margin-top: 6%;        
+   margin-right: 5%;
+    width: 600px;
+    height: 400px;
+    background-image: url('../imgs/imagemlateral2.jpg');
+    background-size: cover;
+   
+}
+    
